@@ -37,6 +37,32 @@ Note: the description of this class are different in ETSI GS NFV IFA 011 and ETS
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tw79vT2pEeiu6I5JfRTxxQ" value="1"/>
         </ownedAttribute>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7pUNEDa7EeivvI-m1BaAbA" name="Cpd " isAbstract="true">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_knSmcDa8EeivvI-m1BaAbA" name="cpdId" type="_AuYtcDkBEeiWMf5FLWfdLA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_lRLQ8Da8EeivvI-m1BaAbA" name="cpRole">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9HlFYDa8EeivvI-m1BaAbA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9HrMADa8EeivvI-m1BaAbA" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_luvWsDa8EeivvI-m1BaAbA" name="description">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-jjUIDa8EeivvI-m1BaAbA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-jozsDa8EeivvI-m1BaAbA" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_oWHBkDa8EeivvI-m1BaAbA" name="cpProtocol">
+          <type xmi:type="uml:DataType" href="Vnf.uml#_PjIasDa9EeivvI-m1BaAbA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DooXkDa9EeivvI-m1BaAbA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DospADa9EeivvI-m1BaAbA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_pJTZEDa8EeivvI-m1BaAbA" name="trunkMode">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_p8meQDa8EeivvI-m1BaAbA" name="allowedAddressData">
+          <type xmi:type="uml:DataType" href="Vnf.uml#_2aIggDa9EeivvI-m1BaAbA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H0-cMDa9EeivvI-m1BaAbA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H1CtoDa9EeivvI-m1BaAbA" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_QVhWcDOHEei5Af8DcjrhIQ" name="Associations"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_Sgc88DOHEei5Af8DcjrhIQ" name="Diagrams"/>

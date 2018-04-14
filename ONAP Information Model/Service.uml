@@ -304,6 +304,39 @@
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_N9Uyoj9REeipQOZ6byMCCA" name="_vnffgd" type="_13ZIsDzEEeiWMf5FLWfdLA" association="_N9RIQD9REeipQOZ6byMCCA"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_fVs3ED96EeipQOZ6byMCCA" name="SapdConnectsToNsVirtualLinkDesc" memberEnd="_fVwhcD96EeipQOZ6byMCCA _fVy9sD96EeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fVusQD96EeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fVv6YD96EeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_fVy9sD96EeipQOZ6byMCCA" name="_sapd" type="_45TagDzEEeiWMf5FLWfdLA" association="_fVs3ED96EeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_w-ujQD96EeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_w-6wgD96EeipQOZ6byMCCA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_YdbiQD97EeipQOZ6byMCCA" name="SapdHasAssociatedCpd" memberEnd="_YddXcj97EeipQOZ6byMCCA _YdfzsT97EeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YddXcD97EeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YddXcT97EeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_YdfzsT97EeipQOZ6byMCCA" name="_sapd" type="_45TagDzEEeiWMf5FLWfdLA" association="_YdbiQD97EeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xHQXsD97EeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xH3bsD97EeipQOZ6byMCCA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_odWtMD98EeipQOZ6byMCCA" name="PnfdHasPnfExtCpd" memberEnd="_odX7Uj98EeipQOZ6byMCCA _odugoD98EeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_odX7UD98EeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_odX7UT98EeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_odugoD98EeipQOZ6byMCCA" name="_pnfd" type="_13TCEDzEEeiWMf5FLWfdLA" association="_odWtMD98EeipQOZ6byMCCA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_U4ctsD99EeipQOZ6byMCCA" name="NfpdReferencesCpd" memberEnd="_U4ei4T99EeipQOZ6byMCCA _U4g_ID99EeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_U4d70D99EeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U4ei4D99EeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_U4g_ID99EeipQOZ6byMCCA" name="_nfpd" type="_13eBMDzEEeiWMf5FLWfdLA" association="_U4ctsD99EeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rWV3ED99EeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rWfoED99EeipQOZ6byMCCA" value="*"/>
+        </ownedEnd>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_fXNM8TOHEei5Af8DcjrhIQ" name="Interfaces"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_fXN0ADOHEei5Af8DcjrhIQ" name="ObjectClasses">
@@ -423,22 +456,19 @@ NOTE: 	The provider of the PNFD might be different from the provider of the PNF.
           <ownedComment xmi:type="uml:Comment" xmi:id="_13TCFzzEEeiWMf5FLWfdLA" annotatedElement="_13TCFjzEEeiWMf5FLWfdLA">
             <body>Identifies the version of the PNFD</body>
           </ownedComment>
-          <type xmi:type="uml:PrimitiveType" href="../NfvInformationModel/NfvModel.uml#_J90d8Jy-EeWdBv9DVHQu3Q"/>
+          <type xmi:type="uml:PrimitiveType" href="Common.uml#_oXexoD2uEeiu6I5JfRTxxQ"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_13TCGDzEEeiWMf5FLWfdLA" name="security">
           <ownedComment xmi:type="uml:Comment" xmi:id="_13TCGTzEEeiWMf5FLWfdLA" annotatedElement="_13TCGDzEEeiWMf5FLWfdLA">
             <body>Provides a signature to prevent tampering.</body>
           </ownedComment>
-          <type xmi:type="uml:DataType" href="../NfvInformationModel/NfvModel.uml#_yS45sJy9EeWdBv9DVHQu3Q"/>
+          <type xmi:type="uml:DataType" href="Common.uml#_P-qXMD2vEeiu6I5JfRTxxQ"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_13TCGjzEEeiWMf5FLWfdLA"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_13TCGzzEEeiWMf5FLWfdLA" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_13TCHDzEEeiWMf5FLWfdLA" name="pnfExtCpd " type="_bd53ADzFEeiWMf5FLWfdLA" aggregation="composite">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_13TCHTzEEeiWMf5FLWfdLA" annotatedElement="_13TCHDzEEeiWMf5FLWfdLA">
-            <body>Specifies the characteristics of one or more connection points where to connect the PNF to a VL.</body>
-          </ownedComment>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_13TCHjzEEeiWMf5FLWfdLA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_13TCHzzEEeiWMf5FLWfdLA" value="*"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_odX7Uj98EeipQOZ6byMCCA" name="_pnfExtCpd " type="_bd53ADzFEeiWMf5FLWfdLA" aggregation="composite" association="_odWtMD98EeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_odeB8D98EeipQOZ6byMCCA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_odmk0D98EeipQOZ6byMCCA" value="*"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_13WFYDzEEeiWMf5FLWfdLA" name="NsVirtualLinkDesc">
@@ -518,7 +548,7 @@ NOTE: 	The provider of the PNFD might be different from the provider of the PNF.
           <ownedComment xmi:type="uml:Comment" xmi:id="_13eBMzzEEeiWMf5FLWfdLA" annotatedElement="_13eBMjzEEeiWMf5FLWfdLA">
             <body>Identifies this nfpd class within a VNFFGD.</body>
           </ownedComment>
-          <type xmi:type="uml:PrimitiveType" href="../NfvInformationModel/NfvModel.uml#_ijP2UEDOEeW6nNR00wt2vw"/>
+          <type xmi:type="uml:DataType" href="Common.uml#_AuYtcDkBEeiWMf5FLWfdLA"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_13eBNDzEEeiWMf5FLWfdLA" name="nfpRule">
           <ownedComment xmi:type="uml:Comment" xmi:id="_13eBNTzEEeiWMf5FLWfdLA" annotatedElement="_13eBNDzEEeiWMf5FLWfdLA">
@@ -526,18 +556,14 @@ NOTE: 	The provider of the PNFD might be different from the provider of the PNF.
 The rule may be expressed as a criteria constructed out of atomic assertions linked by Boolean operators AND, OR and NOT. &#xD;
 NOTE: 	Examples of atomic assertions are assertions on packet header fields’ values, date and time ranges, etc.</body>
           </ownedComment>
-          <type xmi:type="uml:PrimitiveType" href="../NfvInformationModel/NfvModel.uml#_X0O7MEY6EeWVsKu18RjDQg"/>
+          <type xmi:type="uml:PrimitiveType" href="Common.uml#_8rNJgD2uEeiu6I5JfRTxxQ"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_13eBNjzEEeiWMf5FLWfdLA"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_13eBNzzEEeiWMf5FLWfdLA" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_13eBODzEEeiWMf5FLWfdLA" name="cpd">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_13eBOTzEEeiWMf5FLWfdLA" annotatedElement="_13eBODzEEeiWMf5FLWfdLA">
-            <body>References the descriptor of a connection point to be traversed by the traffic flows matching the criteria. This shall be a connection point attached to one of the constituent VNFs and PNFs of the parent VNFFG, or a SAP of one of the constituent nested NSs of the parent VNFFG.&#xD;
-NOTE: 	When multiple values are provided, the order is significant and specifies the sequence of connection points to be traversed.</body>
-          </ownedComment>
-          <type xmi:type="uml:Class" href="../NfvInformationModel/NfvModel.uml#_RzYd-pHCEeWkU9xzYCztUg"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_13eBOjzEEeiWMf5FLWfdLA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_13eBOzzEEeiWMf5FLWfdLA" value="*"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_U4ei4T99EeipQOZ6byMCCA" name="_cpd " association="_U4ctsD99EeipQOZ6byMCCA">
+          <type xmi:type="uml:Class" href="Common.uml#_7pUNEDa7EeivvI-m1BaAbA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_U4gYED99EeipQOZ6byMCCA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_U4gYET99EeipQOZ6byMCCA" value="*"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_13gdcDzEEeiWMf5FLWfdLA" name="NsDf">
@@ -557,7 +583,7 @@ NOTE:	Every VNF, VL and nested NS whose descriptor is referenced by the NS DF sh
           </ownedComment>
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_qpO1AD2yEeiu6I5JfRTxxQ" name="_nsLevel" type="_GYs-4DzFEeiWMf5FLWfdLA" aggregation="composite" association="_qpMYwD2yEeiu6I5JfRTxxQ">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_qpO1AD2yEeiu6I5JfRTxxQ" name="_defaultNsLevel" type="_GYs-4DzFEeiWMf5FLWfdLA" aggregation="composite" association="_qpMYwD2yEeiu6I5JfRTxxQ">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qpQDID2yEeiu6I5JfRTxxQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qpQqMD2yEeiu6I5JfRTxxQ" value="1"/>
         </ownedAttribute>
@@ -610,7 +636,7 @@ NOTE:	Every VNF, VL and nested NS whose descriptor is referenced by the NS DF sh
           <body>The SAPD class specifies the information used to instantiate the service access points of an NS. A Sapd inherits from the Cpd class. All attributes of the Cpd are also attributes of the Sapd.</body>
         </ownedComment>
         <generalization xmi:type="uml:Generalization" xmi:id="_TsplgD2nEeiu6I5JfRTxxQ">
-          <general xmi:type="uml:Class" href="Vnf.uml#_7pUNEDa7EeivvI-m1BaAbA"/>
+          <general xmi:type="uml:Class" href="Common.uml#_7pUNEDa7EeivvI-m1BaAbA"/>
         </generalization>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_45TagzzEEeiWMf5FLWfdLA" name="sapAddressAssignment">
           <ownedComment xmi:type="uml:Comment" xmi:id="_45TahDzEEeiWMf5FLWfdLA" annotatedElement="_45TagzzEEeiWMf5FLWfdLA">
@@ -619,13 +645,14 @@ If it is set to True, management and orchestration functions are responsible for
           </ownedComment>
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_45TahTzEEeiWMf5FLWfdLA" name="associatedCpdId">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_45TahjzEEeiWMf5FLWfdLA" annotatedElement="_45TahTzEEeiWMf5FLWfdLA">
-            <body>References the descriptor of VNF or PNF external connection points the SAPs instantiated from this SAPD are mapped to. </body>
-          </ownedComment>
-          <type xmi:type="uml:Class" href="Vnf.uml#_7pUNEDa7EeivvI-m1BaAbA"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_45TahzzEEeiWMf5FLWfdLA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_45TaiDzEEeiWMf5FLWfdLA" value="1"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_fVwhcD96EeipQOZ6byMCCA" name="_nsvVrtualLinkdesc" type="_13WFYDzEEeiWMf5FLWfdLA" association="_fVs3ED96EeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fVyWoD96EeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fVyWoT96EeipQOZ6byMCCA" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_YddXcj97EeipQOZ6byMCCA" name="_cpd " association="_YdbiQD97EeipQOZ6byMCCA">
+          <type xmi:type="uml:Class" href="Common.uml#_7pUNEDa7EeivvI-m1BaAbA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YdfMoD97EeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YdfzsD97EeipQOZ6byMCCA" value="1"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_45XE4DzEEeiWMf5FLWfdLA" name="VnfProfile">
@@ -754,7 +781,7 @@ NOTE: 	These attributes are used to control scaling boundaries.</body>
           <ownedComment xmi:type="uml:Comment" xmi:id="_kEZB-TzEEeiWMf5FLWfdLA" annotatedElement="_kEZB-DzEEeiWMf5FLWfdLA">
             <body>Identifier of this CpdPool class. It identifies a pool of descriptors of connection points and NS SAPs.</body>
           </ownedComment>
-          <type xmi:type="uml:PrimitiveType" href="../NfvInformationModel/NfvModel.uml#_ijP2UEDOEeW6nNR00wt2vw"/>
+          <type xmi:type="uml:DataType" href="Common.uml#_AuYtcDkBEeiWMf5FLWfdLA"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_GYYOwDzFEeiWMf5FLWfdLA" name="PnfProfile">
@@ -898,8 +925,8 @@ NS levels may be used in the context of NS scaling and in this case they are ref
           <body>A PnfExtCpd is a type of Cpd and describes the characteristics of an external interface, a.k.a external CP, where to connect the PNF to a VL. &#xD;
 A PnfExtCpd inherits from the Cpd Class.</body>
         </ownedComment>
-        <generalization xmi:type="uml:Generalization" xmi:id="_bd53AjzFEeiWMf5FLWfdLA">
-          <general xmi:type="uml:Class" href="../NfvInformationModel/NfvModel.uml#_RzYd-pHCEeWkU9xzYCztUg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_ZZfP8D99EeipQOZ6byMCCA">
+          <general xmi:type="uml:Class" href="Common.uml#_7pUNEDa7EeivvI-m1BaAbA"/>
         </generalization>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_bd_WkDzFEeiWMf5FLWfdLA" name="NsOrVnfProfile" isAbstract="true">
@@ -1571,7 +1598,6 @@ NOTE 2:	A minimum set of external stimulus includes: the receipt of request mess
   <OpenModel_Profile:OpenModelAttribute xmi:id="_13TpIjzEEeiWMf5FLWfdLA" base_StructuralFeature="_13TCFDzEEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_13TpIzzEEeiWMf5FLWfdLA" base_StructuralFeature="_13TCFjzEEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_13TpJDzEEeiWMf5FLWfdLA" base_StructuralFeature="_13TCGDzEEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_13TpJTzEEeiWMf5FLWfdLA" base_StructuralFeature="_13TCHDzEEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_13WscDzEEeiWMf5FLWfdLA" base_Class="_13WFYDzEEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_13WscTzEEeiWMf5FLWfdLA" base_StructuralFeature="_13WFYzzEEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_13WscjzEEeiWMf5FLWfdLA" base_StructuralFeature="_13WFZzzEEeiWMf5FLWfdLA"/>
@@ -1582,13 +1608,11 @@ NOTE 2:	A minimum set of external stimulus includes: the receipt of request mess
   <OpenModel_Profile:OpenModelClass xmi:id="_13eBPDzEEeiWMf5FLWfdLA" base_Class="_13eBMDzEEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_13eoQDzEEeiWMf5FLWfdLA" base_StructuralFeature="_13eBMjzEEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_13eoQTzEEeiWMf5FLWfdLA" base_StructuralFeature="_13eBNDzEEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_13eoQjzEEeiWMf5FLWfdLA" base_StructuralFeature="_13eBODzEEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_13hrkDzEEeiWMf5FLWfdLA" base_Class="_13gdcDzEEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_13hrkTzEEeiWMf5FLWfdLA" base_StructuralFeature="_13gdcjzEEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_13iSoDzEEeiWMf5FLWfdLA" base_StructuralFeature="_13gddDzEEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_45UBkDzEEeiWMf5FLWfdLA" base_Class="_45TagDzEEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_45VPsDzEEeiWMf5FLWfdLA" base_StructuralFeature="_45TagzzEEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_45VPsTzEEeiWMf5FLWfdLA" base_StructuralFeature="_45TahTzEEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_45Xr8DzEEeiWMf5FLWfdLA" base_Class="_45XE4DzEEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_45Xr8TzEEeiWMf5FLWfdLA" base_StructuralFeature="_45XE4zzEEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_45YTADzEEeiWMf5FLWfdLA" base_StructuralFeature="_45XE6zzEEeiWMf5FLWfdLA"/>
@@ -1767,4 +1791,12 @@ NOTE 2:	A minimum set of external stimulus includes: the receipt of request mess
   <OpenModel_Profile:OpenModelAttribute xmi:id="_rOW5MT9QEeipQOZ6byMCCA" base_StructuralFeature="_rOW5MD9QEeipQOZ6byMCCA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_N9TkgD9REeipQOZ6byMCCA" base_StructuralFeature="_N9S9cj9REeipQOZ6byMCCA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_N9VZsD9REeipQOZ6byMCCA" base_StructuralFeature="_N9Uyoj9REeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_fVwhcT96EeipQOZ6byMCCA" base_StructuralFeature="_fVwhcD96EeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_fVy9sT96EeipQOZ6byMCCA" base_StructuralFeature="_fVy9sD96EeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Ydd-gD97EeipQOZ6byMCCA" base_StructuralFeature="_YddXcj97EeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_YdgawD97EeipQOZ6byMCCA" base_StructuralFeature="_YdfzsT97EeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_odYiYD98EeipQOZ6byMCCA" base_StructuralFeature="_odX7Uj98EeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_odugoT98EeipQOZ6byMCCA" base_StructuralFeature="_odugoD98EeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_U4fJ8D99EeipQOZ6byMCCA" base_StructuralFeature="_U4ei4T99EeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_U4g_IT99EeipQOZ6byMCCA" base_StructuralFeature="_U4g_ID99EeipQOZ6byMCCA"/>
 </xmi:XMI>

@@ -871,7 +871,9 @@ Identifies the operating system used in the software image. This attribute may a
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_zOfv8DQVEeixv_sLOod4lQ" name="VduCpd ">
-        <generalization xmi:type="uml:Generalization" xmi:id="_W3y74DdREeiIfPeSAqyGdQ" general="_7pUNEDa7EeivvI-m1BaAbA"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_W3y74DdREeiIfPeSAqyGdQ">
+          <general xmi:type="uml:Class" href="Common.uml#_7pUNEDa7EeivvI-m1BaAbA"/>
+        </generalization>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_7nJYsDdREeiIfPeSAqyGdQ" name="bitrateRequirement">
           <ownedComment xmi:type="uml:Comment" xmi:id="_B1YckDdSEeiIfPeSAqyGdQ" annotatedElement="_7nJYsDdREeiIfPeSAqyGdQ">
             <body>Bitrate requirement on this CP.&#xD;
@@ -1019,32 +1021,6 @@ A given element can belong to multiple groups.</body>
           <ownedComment xmi:type="uml:Comment" xmi:id="_-pIf8Dg2EeiOYfGHew0BGg" annotatedElement="_dP31MDg2EeiOYfGHew0BGg">
             <body>Describe the source of the indicator. This tells the consumer where to send the subscription request.</body>
           </ownedComment>
-        </ownedAttribute>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_7pUNEDa7EeivvI-m1BaAbA" name="Cpd " isAbstract="true">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_knSmcDa8EeivvI-m1BaAbA" name="cpdId">
-          <type xmi:type="uml:DataType" href="Common.uml#_AuYtcDkBEeiWMf5FLWfdLA"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_lRLQ8Da8EeivvI-m1BaAbA" name="cpRole">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9HlFYDa8EeivvI-m1BaAbA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9HrMADa8EeivvI-m1BaAbA" value="1"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_luvWsDa8EeivvI-m1BaAbA" name="description">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-jjUIDa8EeivvI-m1BaAbA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-jozsDa8EeivvI-m1BaAbA" value="1"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_oWHBkDa8EeivvI-m1BaAbA" name="cpProtocol" type="_PjIasDa9EeivvI-m1BaAbA">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DooXkDa9EeivvI-m1BaAbA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DospADa9EeivvI-m1BaAbA" value="*"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_pJTZEDa8EeivvI-m1BaAbA" name="trunkMode">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_p8meQDa8EeivvI-m1BaAbA" name="allowedAddressData" type="_2aIggDa9EeivvI-m1BaAbA">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H0-cMDa9EeivvI-m1BaAbA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H1CtoDa9EeivvI-m1BaAbA" value="*"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_oFQM8Dd-EeiIfPeSAqyGdQ" name="VirtualLinkDescFlavour">
@@ -1972,13 +1948,27 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <OpenModel_Profile:OpenModelAttribute xmi:id="_3WVcUDa4EeivvI-m1BaAbA" base_StructuralFeature="_3WU1QDa4EeivvI-m1BaAbA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_gv2iMTa5EeivvI-m1BaAbA" base_StructuralFeature="_gv2iMDa5EeivvI-m1BaAbA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_heqI8Ta5EeivvI-m1BaAbA" base_StructuralFeature="_heqI8Da5EeivvI-m1BaAbA"/>
-  <OpenModel_Profile:OpenModelClass xmi:id="_7pU0IDa7EeivvI-m1BaAbA" base_Class="_7pUNEDa7EeivvI-m1BaAbA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_knSmcTa8EeivvI-m1BaAbA" base_StructuralFeature="_knSmcDa8EeivvI-m1BaAbA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_lRLQ8Ta8EeivvI-m1BaAbA" base_StructuralFeature="_lRLQ8Da8EeivvI-m1BaAbA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_luv9wDa8EeivvI-m1BaAbA" base_StructuralFeature="_luvWsDa8EeivvI-m1BaAbA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_oWHBkTa8EeivvI-m1BaAbA" base_StructuralFeature="_oWHBkDa8EeivvI-m1BaAbA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_pJTZETa8EeivvI-m1BaAbA" base_StructuralFeature="_pJTZEDa8EeivvI-m1BaAbA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_p8meQTa8EeivvI-m1BaAbA" base_StructuralFeature="_p8meQDa8EeivvI-m1BaAbA"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_7pU0IDa7EeivvI-m1BaAbA">
+    <base_Class xmi:type="uml:Class" href="Common.uml#_7pUNEDa7EeivvI-m1BaAbA"/>
+  </OpenModel_Profile:OpenModelClass>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_knSmcTa8EeivvI-m1BaAbA">
+    <base_StructuralFeature xmi:type="uml:Property" href="Common.uml#_knSmcDa8EeivvI-m1BaAbA"/>
+  </OpenModel_Profile:OpenModelAttribute>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_lRLQ8Ta8EeivvI-m1BaAbA">
+    <base_StructuralFeature xmi:type="uml:Property" href="Common.uml#_lRLQ8Da8EeivvI-m1BaAbA"/>
+  </OpenModel_Profile:OpenModelAttribute>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_luv9wDa8EeivvI-m1BaAbA">
+    <base_StructuralFeature xmi:type="uml:Property" href="Common.uml#_luvWsDa8EeivvI-m1BaAbA"/>
+  </OpenModel_Profile:OpenModelAttribute>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_oWHBkTa8EeivvI-m1BaAbA">
+    <base_StructuralFeature xmi:type="uml:Property" href="Common.uml#_oWHBkDa8EeivvI-m1BaAbA"/>
+  </OpenModel_Profile:OpenModelAttribute>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_pJTZETa8EeivvI-m1BaAbA">
+    <base_StructuralFeature xmi:type="uml:Property" href="Common.uml#_pJTZEDa8EeivvI-m1BaAbA"/>
+  </OpenModel_Profile:OpenModelAttribute>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_p8meQTa8EeivvI-m1BaAbA">
+    <base_StructuralFeature xmi:type="uml:Property" href="Common.uml#_p8meQDa8EeivvI-m1BaAbA"/>
+  </OpenModel_Profile:OpenModelAttribute>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_oa3JQDa9EeivvI-m1BaAbA" base_StructuralFeature="_oa2iMDa9EeivvI-m1BaAbA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_pMLRcDa9EeivvI-m1BaAbA" base_StructuralFeature="_pMKqYDa9EeivvI-m1BaAbA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_A8dPwTa-EeivvI-m1BaAbA" base_StructuralFeature="_A8dPwDa-EeivvI-m1BaAbA"/>
