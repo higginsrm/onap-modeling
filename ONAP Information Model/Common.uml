@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:OpenModel_Profile="http:///schemas/OpenModel_Profile/_JpOasIJYEee3epvelL_xvA/25" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/OpenModel_Profile/_JpOasIJYEee3epvelL_xvA/25 OpenModel_Profile.profile.uml#_JpVIYIJYEee3epvelL_xvA">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:OpenModel_Profile="http:///schemas/OpenModel_Profile/_JpOasIJYEee3epvelL_xvA/25" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/OpenModel_Profile/_JpOasIJYEee3epvelL_xvA/25 OpenModel_Profile.profile.uml#_JpVIYIJYEee3epvelL_xvA">
   <uml:Package xmi:id="_L6FF4DOHEei5Af8DcjrhIQ" name="Common">
     <packagedElement xmi:type="uml:Package" xmi:id="_OFje8DOHEei5Af8DcjrhIQ" name="ObjectClasses">
       <packagedElement xmi:type="uml:Class" xmi:id="_Tw79sD2pEeiu6I5JfRTxxQ" name="VirtualLinkDesc" isAbstract="true">
@@ -63,8 +63,52 @@ Note: the description of this class are different in ETSI GS NFV IFA 011 and ETS
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H1CtoDa9EeivvI-m1BaAbA" value="*"/>
         </ownedAttribute>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_VAnlkEEaEeipQOZ6byMCCA" name="VirtualLink" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_lCMy0EEaEeipQOZ6byMCCA" annotatedElement="_VAnlkEEaEeipQOZ6byMCCA">
+          <body>A set of connection points along with the connectivity relationship between them and any associated target performance metrics (e.g. bandwidth, latency, QoS). NOTE: The Virtual Link can interconnect two or more entities (VNF components, VNFs, or PNFs) and it is supported by a Virtual Network (VN) of the NFVI.</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_bMk8EUEbEeipQOZ6byMCCA" name="_linkPort" type="_vQGKMEEaEeipQOZ6byMCCA" aggregation="composite" association="_bMjG4EEbEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bMljIEEbEeipQOZ6byMCCA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bMmKMEEbEeipQOZ6byMCCA" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_vQGKMEEaEeipQOZ6byMCCA" name="LinkPort" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_0y6SgEEaEeipQOZ6byMCCA" annotatedElement="_vQGKMEEaEeipQOZ6byMCCA">
+          <body>Represents the port of the link.</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_xi8hIEEbEeipQOZ6byMCCA" name="_cp" type="_7XLQwEEaEeipQOZ6byMCCA" association="_xi6r8EEbEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xi9vQEEbEeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xi9vQUEbEeipQOZ6byMCCA" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7XLQwEEaEeipQOZ6byMCCA" name="Cp" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_9xXbQEEaEeipQOZ6byMCCA" annotatedElement="_7XLQwEEaEeipQOZ6byMCCA">
+          <body>Parent for all connection point classes.</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="__TxCIEEaEeipQOZ6byMCCA" name="cpId" visibility="public" type="_AuYtcDkBEeiWMf5FLWfdLA">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_Id4oUEEbEeipQOZ6byMCCA" annotatedElement="__TxCIEEaEeipQOZ6byMCCA">
+            <body>Identifier of this CP.</body>
+          </ownedComment>
+        </ownedAttribute>
+      </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_QVhWcDOHEei5Af8DcjrhIQ" name="Associations"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_QVhWcDOHEei5Af8DcjrhIQ" name="Associations">
+      <packagedElement xmi:type="uml:Association" xmi:id="_bMjG4EEbEeipQOZ6byMCCA" name="VirtualLinkHasLinkPort" memberEnd="_bMk8EUEbEeipQOZ6byMCCA _bMmKMUEbEeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bMjt8EEbEeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bMk8EEEbEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_bMmKMUEbEeipQOZ6byMCCA" name="_virtuaLink" type="_VAnlkEEaEeipQOZ6byMCCA" association="_bMjG4EEbEeipQOZ6byMCCA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_xi6r8EEbEeipQOZ6byMCCA" name="LinkPortTerminatesOnCp" memberEnd="_xi8hIEEbEeipQOZ6byMCCA _xi9vQkEbEeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xi76EEEbEeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xi76EUEbEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_xi9vQkEbEeipQOZ6byMCCA" name="_linkPort" type="_vQGKMEEaEeipQOZ6byMCCA" association="_xi6r8EEbEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-L_sUEEbEeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-MNHsEEbEeipQOZ6byMCCA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_Sgc88DOHEei5Af8DcjrhIQ" name="Diagrams"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_Uu_4IDOHEei5Af8DcjrhIQ" name="Interfaces"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_W8GB0DOHEei5Af8DcjrhIQ" name="TypeDefinitions">
@@ -200,4 +244,12 @@ NOTE:	The present document does not specify the means to declare different bitra
   <OpenModel_Profile:OpenModelAttribute xmi:id="_RVaJ4D2-Eeiu6I5JfRTxxQ" base_StructuralFeature="_RVZi0z2-Eeiu6I5JfRTxxQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_nPNHuD2-Eeiu6I5JfRTxxQ" base_StructuralFeature="_nPNHsj2-Eeiu6I5JfRTxxQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_nPNuwD2-Eeiu6I5JfRTxxQ" base_StructuralFeature="_nPNHtD2-Eeiu6I5JfRTxxQ"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_VAnlkUEaEeipQOZ6byMCCA" base_Class="_VAnlkEEaEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_vQGKMUEaEeipQOZ6byMCCA" base_Class="_vQGKMEEaEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_7XL30EEaEeipQOZ6byMCCA" base_Class="_7XLQwEEaEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="__TxCIUEaEeipQOZ6byMCCA" base_StructuralFeature="__TxCIEEaEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_bMk8EkEbEeipQOZ6byMCCA" base_StructuralFeature="_bMk8EUEbEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_bMmxQEEbEeipQOZ6byMCCA" base_StructuralFeature="_bMmKMUEbEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_xi8hIUEbEeipQOZ6byMCCA" base_StructuralFeature="_xi8hIEEbEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_xi-WUEEbEeipQOZ6byMCCA" base_StructuralFeature="_xi9vQkEbEeipQOZ6byMCCA"/>
 </xmi:XMI>

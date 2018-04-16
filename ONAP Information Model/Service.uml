@@ -281,28 +281,20 @@
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_fGPAAj2_Eeiu6I5JfRTxxQ" name="_nsScalingAspect" type="_GYmRMDzFEeiWMf5FLWfdLA" association="_fGKukD2_Eeiu6I5JfRTxxQ"/>
       </packagedElement>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_fXNM8DOHEei5Af8DcjrhIQ" name="Diagrams">
-      <packagedElement xmi:type="uml:Association" xmi:id="_5kK9oD9PEeipQOZ6byMCCA" name="VnffgdHasNfdp" memberEnd="_5lRw4D9PEeipQOZ6byMCCA _5liPkD9PEeipQOZ6byMCCA">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5lOtkD9PEeipQOZ6byMCCA" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5lPUoD9PEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_U4ctsD99EeipQOZ6byMCCA" name="NfpdReferencesCpd" memberEnd="_U4ei4T99EeipQOZ6byMCCA _U4g_ID99EeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_U4d70D99EeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U4ei4D99EeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
         </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_5liPkD9PEeipQOZ6byMCCA" name="_vnffgd" type="_13ZIsDzEEeiWMf5FLWfdLA" association="_5kK9oD9PEeipQOZ6byMCCA"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_rOQLgD9QEeipQOZ6byMCCA" name="VnffgdHasConstituentVnfds" memberEnd="_rOTO0D9QEeipQOZ6byMCCA _rOW5MD9QEeipQOZ6byMCCA">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rOSnwD9QEeipQOZ6byMCCA" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rOSnwT9QEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_rOW5MD9QEeipQOZ6byMCCA" name="_vnffgd" type="_13ZIsDzEEeiWMf5FLWfdLA" association="_rOQLgD9QEeipQOZ6byMCCA">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7VOPED9QEeipQOZ6byMCCA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7VhKAD9QEeipQOZ6byMCCA" value="*"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_U4g_ID99EeipQOZ6byMCCA" name="_nfpd" type="_13eBMDzEEeiWMf5FLWfdLA" association="_U4ctsD99EeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rWV3ED99EeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rWfoED99EeipQOZ6byMCCA" value="*"/>
         </ownedEnd>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_N9RIQD9REeipQOZ6byMCCA" name="VnffgdReferencesCdpPool" memberEnd="_N9S9cj9REeipQOZ6byMCCA _N9Uyoj9REeipQOZ6byMCCA">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N9S9cD9REeipQOZ6byMCCA" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N9S9cT9REeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_odWtMD98EeipQOZ6byMCCA" name="PnfdHasPnfExtCpd" memberEnd="_odX7Uj98EeipQOZ6byMCCA _odugoD98EeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_odX7UD98EeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_odX7UT98EeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
         </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_N9Uyoj9REeipQOZ6byMCCA" name="_vnffgd" type="_13ZIsDzEEeiWMf5FLWfdLA" association="_N9RIQD9REeipQOZ6byMCCA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_odugoD98EeipQOZ6byMCCA" name="_pnfd" type="_13TCEDzEEeiWMf5FLWfdLA" association="_odWtMD98EeipQOZ6byMCCA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_fVs3ED96EeipQOZ6byMCCA" name="SapdConnectsToNsVirtualLinkDesc" memberEnd="_fVwhcD96EeipQOZ6byMCCA _fVy9sD96EeipQOZ6byMCCA">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fVusQD96EeipQOZ6byMCCA" source="org.eclipse.papyrus">
@@ -322,19 +314,156 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xH3bsD97EeipQOZ6byMCCA" value="1"/>
         </ownedEnd>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_odWtMD98EeipQOZ6byMCCA" name="PnfdHasPnfExtCpd" memberEnd="_odX7Uj98EeipQOZ6byMCCA _odugoD98EeipQOZ6byMCCA">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_odX7UD98EeipQOZ6byMCCA" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_odX7UT98EeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_rOQLgD9QEeipQOZ6byMCCA" name="VnffgdHasConstituentVnfds" memberEnd="_rOTO0D9QEeipQOZ6byMCCA _rOW5MD9QEeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rOSnwD9QEeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rOSnwT9QEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
         </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_odugoD98EeipQOZ6byMCCA" name="_pnfd" type="_13TCEDzEEeiWMf5FLWfdLA" association="_odWtMD98EeipQOZ6byMCCA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_rOW5MD9QEeipQOZ6byMCCA" name="_vnffgd" type="_13ZIsDzEEeiWMf5FLWfdLA" association="_rOQLgD9QEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7VOPED9QEeipQOZ6byMCCA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7VhKAD9QEeipQOZ6byMCCA" value="*"/>
+        </ownedEnd>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_U4ctsD99EeipQOZ6byMCCA" name="NfpdReferencesCpd" memberEnd="_U4ei4T99EeipQOZ6byMCCA _U4g_ID99EeipQOZ6byMCCA">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_U4d70D99EeipQOZ6byMCCA" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U4ei4D99EeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_5kK9oD9PEeipQOZ6byMCCA" name="VnffgdHasNfdp" memberEnd="_5lRw4D9PEeipQOZ6byMCCA _5liPkD9PEeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5lOtkD9PEeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5lPUoD9PEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
         </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_U4g_ID99EeipQOZ6byMCCA" name="_nfpd" type="_13eBMDzEEeiWMf5FLWfdLA" association="_U4ctsD99EeipQOZ6byMCCA">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rWV3ED99EeipQOZ6byMCCA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rWfoED99EeipQOZ6byMCCA" value="*"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_5liPkD9PEeipQOZ6byMCCA" name="_vnffgd" type="_13ZIsDzEEeiWMf5FLWfdLA" association="_5kK9oD9PEeipQOZ6byMCCA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_N9RIQD9REeipQOZ6byMCCA" name="VnffgdReferencesCdpPool" memberEnd="_N9S9cj9REeipQOZ6byMCCA _N9Uyoj9REeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N9S9cD9REeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N9S9cT9REeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_N9Uyoj9REeipQOZ6byMCCA" name="_vnffgd" type="_13ZIsDzEEeiWMf5FLWfdLA" association="_N9RIQD9REeipQOZ6byMCCA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_auFoQEEmEeipQOZ6byMCCA" name="NfpContainsCp">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_auG2YEEmEeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_auG2YUEmEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <memberEnd xmi:type="uml:Property" href="Resource.uml#_auG2YkEmEeipQOZ6byMCCA"/>
+        <memberEnd xmi:type="uml:Property" href="#_augfAEEmEeipQOZ6byMCCA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_augfAEEmEeipQOZ6byMCCA" name="_nfp" association="_auFoQEEmEeipQOZ6byMCCA">
+          <type xmi:type="uml:Class" href="Resource.uml#_kiPmwEEiEeipQOZ6byMCCA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pXW-wEEmEeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pYxUAEEmEeipQOZ6byMCCA" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_SdpfQEEqEeipQOZ6byMCCA" name="NfpDeployedUsingNfpd">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SdrUcEEqEeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SdrUcUEqEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <memberEnd xmi:type="uml:Property" href="Resource.uml#_Sdr7gEEqEeipQOZ6byMCCA"/>
+        <memberEnd xmi:type="uml:Property" href="#_SdtwsEEqEeipQOZ6byMCCA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_SdtwsEEqEeipQOZ6byMCCA" name="_nfp" association="_SdpfQEEqEeipQOZ6byMCCA">
+          <type xmi:type="uml:Class" href="Resource.uml#_kiPmwEEiEeipQOZ6byMCCA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YIDdUEEqEeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YIPqkEEqEeipQOZ6byMCCA" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_-JDksEEpEeipQOZ6byMCCA" name="NsDeployedUsingNsd" memberEnd="_-JEy0kEpEeipQOZ6byMCCA _-JpakEEpEeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-JEy0EEpEeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-JEy0UEpEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_-JpakEEpEeipQOZ6byMCCA" name="_ns" type="_1WWbsDzFEeiWMf5FLWfdLA" association="_-JDksEEpEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ElNIwEEqEeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ElbyQEEqEeipQOZ6byMCCA" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_O6zEkEEfEeipQOZ6byMCCA" name="NsExposesSap" memberEnd="_O60SskEfEeipQOZ6byMCCA _O62u8EEfEeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O60SsEEfEeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O60SsUEfEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_O62u8EEfEeipQOZ6byMCCA" name="_ns" type="_1WWbsDzFEeiWMf5FLWfdLA" association="_O6zEkEEfEeipQOZ6byMCCA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_cktJcEEXEeipQOZ6byMCCA" name="NsHasNestedNs" memberEnd="_cloWgkEXEeipQOZ6byMCCA _coO-kEEXEeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cloWgEEXEeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cloWgUEXEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_coO-kEEXEeipQOZ6byMCCA" name="_networkService" type="_1WWbsDzFEeiWMf5FLWfdLA" association="_cktJcEEXEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_81LAIEEXEeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_81YbgEEXEeipQOZ6byMCCA" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mTHVMEEnEeipQOZ6byMCCA" name="NsIncludesNf" memberEnd="_mTIjUkEnEeipQOZ6byMCCA _mTKYgUEnEeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mTIjUEEnEeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mTIjUUEnEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_mTKYgUEnEeipQOZ6byMCCA" name="_nf" type="_1WWbsDzFEeiWMf5FLWfdLA" association="_mTHVMEEnEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1Ys0QEEnEeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1Y6PoEEnEeipQOZ6byMCCA" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_hmkKsEEgEeipQOZ6byMCCA" name="PnfExposesPnfExtCp" memberEnd="_hml_4kEgEeipQOZ6byMCCA _hmn1EUEgEeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hml_4EEgEeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hml_4UEgEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_hmn1EUEgEeipQOZ6byMCCA" name="_pnf" type="_6GSVkDzFEeiWMf5FLWfdLA" association="_hmkKsEEgEeipQOZ6byMCCA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_l075gEEpEeipQOZ6byMCCA" name="PnfDeployedUsingPnfd" memberEnd="_l09HokEpEeipQOZ6byMCCA _l0-80UEpEeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l09HoEEpEeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l09HoUEpEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_l0-80UEpEeipQOZ6byMCCA" name="_pnf" type="_6GSVkDzFEeiWMf5FLWfdLA" association="_l075gEEpEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_to4W8EEpEeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tpDWEEEpEeipQOZ6byMCCA" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_SF2IcEEYEeipQOZ6byMCCA" name="NsUsesVnffg" memberEnd="_SGGAEEEYEeipQOZ6byMCCA _SGHOMUEYEeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SGFZAEEYEeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SGFZAUEYEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_SGHOMUEYEeipQOZ6byMCCA" name="_ns" type="_1WWbsDzFEeiWMf5FLWfdLA" association="_SF2IcEEYEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3DmNoEEYEeipQOZ6byMCCA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3GS8UEEYEeipQOZ6byMCCA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_KowPUEEZEeipQOZ6byMCCA" name="NsUsesVirtualLink" memberEnd="_KoyEgUEZEeipQOZ6byMCCA _Koz5sUEZEeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KoxdcEEZEeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KoyEgEEZEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Koz5sUEZEeipQOZ6byMCCA" name="_ns" type="_1WWbsDzFEeiWMf5FLWfdLA" association="_KowPUEEZEeipQOZ6byMCCA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_TCDCQEEpEeipQOZ6byMCCA" name="SapDeployedUsingSapd" memberEnd="_TCE3cUEpEeipQOZ6byMCCA _TCGsoUEpEeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TCEQYEEpEeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TCE3cEEpEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_TCGsoUEpEeipQOZ6byMCCA" name="_sap" type="_1Wb7QDzFEeiWMf5FLWfdLA" association="_TCDCQEEpEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bUXdwEEpEeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bUlgMEEpEeipQOZ6byMCCA" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_fXNM8DOHEei5Af8DcjrhIQ" name="Diagrams">
+      <packagedElement xmi:type="uml:Association" xmi:id="_v5dswEEZEeipQOZ6byMCCA" name="VnffgHasConstituentVirtualLink" memberEnd="_v5fh8kEZEeipQOZ6byMCCA _v5hXIUEZEeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v5fh8EEZEeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v5fh8UEZEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_v5hXIUEZEeipQOZ6byMCCA" name="_vnffg" type="_1WdwcDzFEeiWMf5FLWfdLA" association="_v5dswEEZEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7t3H4EEZEeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7t_DsEEZEeipQOZ6byMCCA" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_q_sAwEEhEeipQOZ6byMCCA" name="VnffgHasConstituentCp" memberEnd="_q_t18EEhEeipQOZ6byMCCA _q_vEEUEhEeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q_tO4EEhEeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q_tO4UEhEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_q_vEEUEhEeipQOZ6byMCCA" name="_vnffg" type="_1WdwcDzFEeiWMf5FLWfdLA" association="_q_sAwEEhEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9YlDoEEhEeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9YwCwEEhEeipQOZ6byMCCA" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_65TA8EElEeipQOZ6byMCCA" name="VnffgHasNfp" memberEnd="_65U2IkElEeipQOZ6byMCCA _65XSYEElEeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_65U2IEElEeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_65U2IUElEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_65XSYEElEeipQOZ6byMCCA" name="_vnffg" type="_1WdwcDzFEeiWMf5FLWfdLA" association="_65TA8EElEeipQOZ6byMCCA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NqHwwEEoEeipQOZ6byMCCA" name="VnffgHasConstituentNF" memberEnd="_NqI-4kEoEeipQOZ6byMCCA _NqKNAkEoEeipQOZ6byMCCA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NqI-4EEoEeipQOZ6byMCCA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NqI-4UEoEeipQOZ6byMCCA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_NqKNAkEoEeipQOZ6byMCCA" name="_vnffg" type="_1WdwcDzFEeiWMf5FLWfdLA" association="_NqHwwEEoEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bk2mQEEoEeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_blUgUEEoEeipQOZ6byMCCA" value="*"/>
         </ownedEnd>
       </packagedElement>
     </packagedElement>
@@ -952,12 +1081,6 @@ A PnfExtCpd inherits from the Cpd Class.</body>
           <body>A composition of Network Functions and defined by its functional and behavioural specification. &#xD;
 NOTE: The Network Service (NS) contributes to the behaviour of the higher layer service, which is characterized by at least performance, dependability, and security specifications. The end-to-end network service behaviour is the result of the combination of the individual network function behaviours as well as the behaviours of the network infrastructure composition mechanism.</body>
         </ownedComment>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_1WWbsjzFEeiWMf5FLWfdLA" name="nsInstanceId">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_1WWbszzFEeiWMf5FLWfdLA" annotatedElement="_1WWbsjzFEeiWMf5FLWfdLA">
-            <body>Identifier of this NetworkService, identifying the NS instance.</body>
-          </ownedComment>
-          <type xmi:type="uml:PrimitiveType" href="../NfvInformationModel/NfvModel.uml#_ijP2UEDOEeW6nNR00wt2vw"/>
-        </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_1WWbtDzFEeiWMf5FLWfdLA" name="nsName">
           <ownedComment xmi:type="uml:Comment" xmi:id="_1WWbtTzFEeiWMf5FLWfdLA" annotatedElement="_1WWbtDzFEeiWMf5FLWfdLA">
             <body>Human readable name of the NS instance.</body>
@@ -970,52 +1093,49 @@ NOTE: The Network Service (NS) contributes to the behaviour of the higher layer 
           </ownedComment>
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_1WWbuDzFEeiWMf5FLWfdLA" name="nf" aggregation="shared">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_1WWbuTzFEeiWMf5FLWfdLA" annotatedElement="_1WWbuDzFEeiWMf5FLWfdLA">
-            <body>Reference to consistituent VNFs and PNFs on this NS.&#xD;
-NOTE: Cardinality of zero is only valid for a non-instantiated NS.</body>
-          </ownedComment>
-          <type xmi:type="uml:Class" href="../NfvInformationModel/NfvModel.uml#_ab2ZVIPEEeWwYYWsl-GrVw"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1WWbujzFEeiWMf5FLWfdLA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1WWbuzzFEeiWMf5FLWfdLA" value="*"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_cloWgkEXEeipQOZ6byMCCA" name="_nestedNs" type="_1WWbsDzFEeiWMf5FLWfdLA" aggregation="shared" association="_cktJcEEXEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cl6DUEEXEeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_coDYYEEXEeipQOZ6byMCCA" value="*"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_1WWbvDzFEeiWMf5FLWfdLA" name="nsVirtuaLlink" aggregation="composite">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_1WWbvTzFEeiWMf5FLWfdLA" annotatedElement="_1WWbvDzFEeiWMf5FLWfdLA">
-            <body>Information on the VLs of this NS. &#xD;
-NOTE: Cardinality of zero is only valid for a non-instantiated NS.</body>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_1WWbsjzFEeiWMf5FLWfdLA" name="nsInstanceId">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_1WWbszzFEeiWMf5FLWfdLA" annotatedElement="_1WWbsjzFEeiWMf5FLWfdLA">
+            <body>Identifier of this NetworkService, identifying the NS instance.</body>
           </ownedComment>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1WWbvjzFEeiWMf5FLWfdLA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1WWbvzzFEeiWMf5FLWfdLA" value="*"/>
+          <type xmi:type="uml:DataType" href="Common.uml#_AuYtcDkBEeiWMf5FLWfdLA"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_1WWbwDzFEeiWMf5FLWfdLA" name="vnffg" type="_1WdwcDzFEeiWMf5FLWfdLA" aggregation="composite">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_1WWbwTzFEeiWMf5FLWfdLA" annotatedElement="_1WWbwDzFEeiWMf5FLWfdLA">
-            <body>Information on the VNFFGs of this NS.</body>
-          </ownedComment>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1WWbwjzFEeiWMf5FLWfdLA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1WWbwzzFEeiWMf5FLWfdLA" value="*"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_SGGAEEEYEeipQOZ6byMCCA" name="_vnffg" type="_1WdwcDzFEeiWMf5FLWfdLA" aggregation="composite" association="_SF2IcEEYEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SGGnIEEYEeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SGHOMEEYEeipQOZ6byMCCA" value="*"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_1WWbxDzFEeiWMf5FLWfdLA" name="sap" type="_1Wb7QDzFEeiWMf5FLWfdLA" aggregation="composite">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_1WWbxTzFEeiWMf5FLWfdLA" annotatedElement="_1WWbxDzFEeiWMf5FLWfdLA">
-            <body>Information on the SAPs of this NS.</body>
-          </ownedComment>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1WWbxjzFEeiWMf5FLWfdLA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1WWbxzzFEeiWMf5FLWfdLA" value="*"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_KoyEgUEZEeipQOZ6byMCCA" name="_nsVirtualLink" type="_6GPSQDzFEeiWMf5FLWfdLA" aggregation="composite" association="_KowPUEEZEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KozSoEEZEeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Koz5sEEZEeipQOZ6byMCCA" value="*"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_1WXCwDzFEeiWMf5FLWfdLA" name="nestedNs" type="_1WWbsDzFEeiWMf5FLWfdLA" aggregation="shared">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_1WXCwTzFEeiWMf5FLWfdLA" annotatedElement="_1WXCwDzFEeiWMf5FLWfdLA">
-            <body>Reference to information on nested NSs of this NS.</body>
-          </ownedComment>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1WXCwjzFEeiWMf5FLWfdLA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1WXCwzzFEeiWMf5FLWfdLA" value="*"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_O60SskEfEeipQOZ6byMCCA" name="_sap" type="_1Wb7QDzFEeiWMf5FLWfdLA" aggregation="composite" association="_O6zEkEEfEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O62H4EEfEeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O62H4UEfEeipQOZ6byMCCA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_mTIjUkEnEeipQOZ6byMCCA" name="_nf" aggregation="shared" association="_mTHVMEEnEeipQOZ6byMCCA">
+          <type xmi:type="uml:Class" href="Resource.uml#_BCEgkEEnEeipQOZ6byMCCA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mTJxcEEnEeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mTKYgEEnEeipQOZ6byMCCA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_-JEy0kEpEeipQOZ6byMCCA" name="_nsd" type="_13KfMDzEEeiWMf5FLWfdLA" association="_-JDksEEpEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-JRnIEEpEeipQOZ6byMCCA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-JebcEEpEeipQOZ6byMCCA" value="1"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_1Wb7QDzFEeiWMf5FLWfdLA" name="Sap">
         <ownedComment xmi:type="uml:Comment" xmi:id="_1Wb7QTzFEeiWMf5FLWfdLA" annotatedElement="_1Wb7QDzFEeiWMf5FLWfdLA">
           <body>Provides information on a Service Access Point (SAP) of a NS</body>
         </ownedComment>
-        <generalization xmi:type="uml:Generalization" xmi:id="_1Wb7QjzFEeiWMf5FLWfdLA">
-          <general xmi:type="uml:Class" href="../NfvInformationModel/NfvModel.uml#_2T5FQIkaEeW19aRC6Vd4Hg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="__ktrYEEeEeipQOZ6byMCCA">
+          <general xmi:type="uml:Class" href="Common.uml#_7XLQwEEaEeipQOZ6byMCCA"/>
         </generalization>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_TCE3cUEpEeipQOZ6byMCCA" name="_sapd" type="_45TagDzEEeiWMf5FLWfdLA" association="_TCDCQEEpEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TCGFkEEpEeipQOZ6byMCCA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TCGsoEEpEeipQOZ6byMCCA" value="1"/>
+        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_1WdwcDzFEeiWMf5FLWfdLA" name="Vnffg">
         <ownedComment xmi:type="uml:Comment" xmi:id="_1WdwcTzFEeiWMf5FLWfdLA" annotatedElement="_1WdwcDzFEeiWMf5FLWfdLA">
@@ -1025,47 +1145,34 @@ NOTE: Cardinality of zero is only valid for a non-instantiated NS.</body>
           <ownedComment xmi:type="uml:Comment" xmi:id="_1WdwczzFEeiWMf5FLWfdLA" annotatedElement="_1WdwcjzFEeiWMf5FLWfdLA">
             <body>Identier of this Vnffg class.</body>
           </ownedComment>
-          <type xmi:type="uml:PrimitiveType" href="../NfvInformationModel/NfvModel.uml#_ijP2UEDOEeW6nNR00wt2vw"/>
+          <type xmi:type="uml:DataType" href="Common.uml#_AuYtcDkBEeiWMf5FLWfdLA"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_1WdwdDzFEeiWMf5FLWfdLA" name="nfId">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_1WdwdTzFEeiWMf5FLWfdLA" annotatedElement="_1WdwdDzFEeiWMf5FLWfdLA">
-            <body>Identifier of the constituent NFs of the VNFFG</body>
-          </ownedComment>
-          <type xmi:type="uml:Class" href="../NfvInformationModel/NfvModel.uml#_ab2ZVIPEEeWwYYWsl-GrVw"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1WdwdjzFEeiWMf5FLWfdLA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1WdwdzzFEeiWMf5FLWfdLA" value="*"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_v5fh8kEZEeipQOZ6byMCCA" name="_nsVirtualLink" type="_6GPSQDzFEeiWMf5FLWfdLA" association="_v5dswEEZEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v5gwEEEZEeipQOZ6byMCCA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_v5hXIEEZEeipQOZ6byMCCA" value="*"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_1WdweDzFEeiWMf5FLWfdLA" name="virtualLinkId">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_1WdweTzFEeiWMf5FLWfdLA" annotatedElement="_1WdweDzFEeiWMf5FLWfdLA">
-            <body>Identifier(s) of the constituent VL instance(s) of the VNFFG.</body>
-          </ownedComment>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1WdwejzFEeiWMf5FLWfdLA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1WeXgDzFEeiWMf5FLWfdLA" value="*"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_q_t18EEhEeipQOZ6byMCCA" name="_cp" association="_q_sAwEEhEeipQOZ6byMCCA">
+          <type xmi:type="uml:Class" href="Common.uml#_7XLQwEEaEeipQOZ6byMCCA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_q_udAEEhEeipQOZ6byMCCA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q_vEEEEhEeipQOZ6byMCCA" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_1WeXgTzFEeiWMf5FLWfdLA" name="cpId">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_1WeXgjzFEeiWMf5FLWfdLA" annotatedElement="_1WeXgTzFEeiWMf5FLWfdLA">
-            <body>Identifiers of the CP instances attached to the constituent VNFs and PNFs or the sap instances of the VNFFG.&#xD;
-NOTE: It indicates an exhaustive list of all the CP instances and SAP instances of the VNFFG.</body>
-          </ownedComment>
-          <type xmi:type="uml:Class" href="../NfvInformationModel/NfvModel.uml#_2T5FQIkaEeW19aRC6Vd4Hg"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1WeXgzzFEeiWMf5FLWfdLA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1WeXhDzFEeiWMf5FLWfdLA" value="*"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_65U2IkElEeipQOZ6byMCCA" name="_nfp" aggregation="composite" association="_65TA8EElEeipQOZ6byMCCA">
+          <type xmi:type="uml:Class" href="Resource.uml#_kiPmwEEiEeipQOZ6byMCCA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_65WrUEElEeipQOZ6byMCCA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_65WrUUElEeipQOZ6byMCCA" value="*"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_1WeXhTzFEeiWMf5FLWfdLA" name="nfp" aggregation="composite">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_1WeXhjzFEeiWMf5FLWfdLA" annotatedElement="_1WeXhTzFEeiWMf5FLWfdLA">
-            <body>Information on the NFPs of this VNFFG. </body>
-          </ownedComment>
-          <type xmi:type="uml:Class" href="../NfvInformationModel/NfvModel.uml#_fyAisEsfEeWcHrzD5qesGA"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1WeXhzzFEeiWMf5FLWfdLA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1WeXiDzFEeiWMf5FLWfdLA" value="*"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_NqI-4kEoEeipQOZ6byMCCA" name="_nf" association="_NqHwwEEoEeipQOZ6byMCCA">
+          <type xmi:type="uml:Class" href="Resource.uml#_BCEgkEEnEeipQOZ6byMCCA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NqKNAEEoEeipQOZ6byMCCA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NqKNAUEoEeipQOZ6byMCCA" value="*"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_6GPSQDzFEeiWMf5FLWfdLA" name="NsVirtualLink">
         <ownedComment xmi:type="uml:Comment" xmi:id="_6GPSQTzFEeiWMf5FLWfdLA" annotatedElement="_6GPSQDzFEeiWMf5FLWfdLA">
           <body>This class provides run-time information about an NS VL instance.</body>
         </ownedComment>
-        <generalization xmi:type="uml:Generalization" xmi:id="_6GPSQjzFEeiWMf5FLWfdLA">
-          <general xmi:type="uml:Class" href="../NfvInformationModel/NfvModel.uml#_Tx_0N4kZEeW19aRC6Vd4Hg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_a9YNAEEcEeipQOZ6byMCCA">
+          <general xmi:type="uml:Class" href="Common.uml#_VAnlkEEaEeipQOZ6byMCCA"/>
         </generalization>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_6GPSQzzFEeiWMf5FLWfdLA" name="virtualNetwork">
           <ownedComment xmi:type="uml:Comment" xmi:id="_6GPSRDzFEeiWMf5FLWfdLA" annotatedElement="_6GPSQzzFEeiWMf5FLWfdLA">
@@ -1080,23 +1187,24 @@ NOTE: It indicates an exhaustive list of all the CP instances and SAP instances 
         <ownedComment xmi:type="uml:Comment" xmi:id="_6GSVkTzFEeiWMf5FLWfdLA" annotatedElement="_6GSVkDzFEeiWMf5FLWfdLA">
           <body>An implementation of a NF via a tightly coupled software and hardware system.</body>
         </ownedComment>
-        <generalization xmi:type="uml:Generalization" xmi:id="_6GSVkjzFEeiWMf5FLWfdLA">
-          <general xmi:type="uml:Class" href="../NfvInformationModel/NfvModel.uml#_ab2ZVIPEEeWwYYWsl-GrVw"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_XFjl4EEnEeipQOZ6byMCCA">
+          <general xmi:type="uml:Class" href="Resource.uml#_BCEgkEEnEeipQOZ6byMCCA"/>
         </generalization>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_6GSVkzzFEeiWMf5FLWfdLA" name="pnfExternalCp" type="_6GUx0DzFEeiWMf5FLWfdLA" aggregation="composite">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_6GSVlDzFEeiWMf5FLWfdLA" annotatedElement="_6GSVkzzFEeiWMf5FLWfdLA">
-            <body>External CP of the PNF.</body>
-          </ownedComment>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6GSVlTzFEeiWMf5FLWfdLA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6GSVljzFEeiWMf5FLWfdLA" value="*"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_hml_4kEgEeipQOZ6byMCCA" name="_pnfExtCp" type="_6GUx0DzFEeiWMf5FLWfdLA" aggregation="composite" association="_hmkKsEEgEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hmnOAEEgEeipQOZ6byMCCA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hmn1EEEgEeipQOZ6byMCCA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_l09HokEpEeipQOZ6byMCCA" name="_pnfd" type="_13TCEDzEEeiWMf5FLWfdLA" association="_l075gEEpEeipQOZ6byMCCA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l0-VwEEpEeipQOZ6byMCCA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l0-80EEpEeipQOZ6byMCCA" value="1"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_6GUx0DzFEeiWMf5FLWfdLA" name="PnfExtCp">
         <ownedComment xmi:type="uml:Comment" xmi:id="_6GUx0TzFEeiWMf5FLWfdLA" annotatedElement="_6GUx0DzFEeiWMf5FLWfdLA">
           <body>External CP of the PNF.</body>
         </ownedComment>
-        <generalization xmi:type="uml:Generalization" xmi:id="_6GUx0jzFEeiWMf5FLWfdLA">
-          <general xmi:type="uml:Class" href="../NfvInformationModel/NfvModel.uml#_2T5FQIkaEeW19aRC6Vd4Hg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_Q0pssEEgEeipQOZ6byMCCA">
+          <general xmi:type="uml:Class" href="Common.uml#_7XLQwEEaEeipQOZ6byMCCA"/>
         </generalization>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_6GUx0zzFEeiWMf5FLWfdLA" name="cpd">
           <ownedComment xmi:type="uml:Comment" xmi:id="_6GUx1DzFEeiWMf5FLWfdLA" annotatedElement="_6GUx0zzFEeiWMf5FLWfdLA">
@@ -1653,22 +1761,12 @@ NOTE 2:	A minimum set of external stimulus includes: the receipt of request mess
   <OpenModel_Profile:OpenModelAttribute xmi:id="_1WYQ4DzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WWbsjzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_1WY38DzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WWbtDzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_1WY38TzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WWbtjzFEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_1WY38jzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WWbuDzFEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_1WY38zzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WWbvDzFEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_1WY39DzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WWbwDzFEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_1WY39TzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WWbxDzFEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_1WY39jzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WXCwDzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_1Wb7QzzFEeiWMf5FLWfdLA" base_Class="_1Wb7QDzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_1WeXiTzFEeiWMf5FLWfdLA" base_Class="_1WdwcDzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_1WeXijzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WdwcjzFEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_1We-kDzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WdwdDzFEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_1We-kTzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WdweDzFEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_1We-kjzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WeXgTzFEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_1We-kzzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WeXhTzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_6GP5UDzFEeiWMf5FLWfdLA" base_Class="_6GPSQDzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_6GQgYDzFEeiWMf5FLWfdLA" base_StructuralFeature="_6GPSQzzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_6GS8oDzFEeiWMf5FLWfdLA" base_Class="_6GSVkDzFEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_6GS8oTzFEeiWMf5FLWfdLA" base_StructuralFeature="_6GSVkzzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_6GUx1TzFEeiWMf5FLWfdLA" base_Class="_6GUx0DzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_6GVY4DzFEeiWMf5FLWfdLA" base_StructuralFeature="_6GUx0zzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_BJM-sDzGEeiWMf5FLWfdLA" base_Class="_BJMXoDzGEeiWMf5FLWfdLA"/>
@@ -1799,4 +1897,32 @@ NOTE 2:	A minimum set of external stimulus includes: the receipt of request mess
   <OpenModel_Profile:OpenModelAttribute xmi:id="_odugoT98EeipQOZ6byMCCA" base_StructuralFeature="_odugoD98EeipQOZ6byMCCA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_U4fJ8D99EeipQOZ6byMCCA" base_StructuralFeature="_U4ei4T99EeipQOZ6byMCCA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_U4g_IT99EeipQOZ6byMCCA" base_StructuralFeature="_U4g_ID99EeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_clo9kEEXEeipQOZ6byMCCA" base_StructuralFeature="_cloWgkEXEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_coO-kUEXEeipQOZ6byMCCA" base_StructuralFeature="_coO-kEEXEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_SGGAEUEYEeipQOZ6byMCCA" base_StructuralFeature="_SGGAEEEYEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_SGHOMkEYEeipQOZ6byMCCA" base_StructuralFeature="_SGHOMUEYEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_KoyEgkEZEeipQOZ6byMCCA" base_StructuralFeature="_KoyEgUEZEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Koz5skEZEeipQOZ6byMCCA" base_StructuralFeature="_Koz5sUEZEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_v5gJAEEZEeipQOZ6byMCCA" base_StructuralFeature="_v5fh8kEZEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_v5h-MEEZEeipQOZ6byMCCA" base_StructuralFeature="_v5hXIUEZEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_O605wEEfEeipQOZ6byMCCA" base_StructuralFeature="_O60SskEfEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_O62u8UEfEeipQOZ6byMCCA" base_StructuralFeature="_O62u8EEfEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_hmmm8EEgEeipQOZ6byMCCA" base_StructuralFeature="_hml_4kEgEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_hmn1EkEgEeipQOZ6byMCCA" base_StructuralFeature="_hmn1EUEgEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_q_t18UEhEeipQOZ6byMCCA" base_StructuralFeature="_q_t18EEhEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_q_vEEkEhEeipQOZ6byMCCA" base_StructuralFeature="_q_vEEUEhEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_65VdMEElEeipQOZ6byMCCA" base_StructuralFeature="_65U2IkElEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_65XSYUElEeipQOZ6byMCCA" base_StructuralFeature="_65XSYEElEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_auhGEEEmEeipQOZ6byMCCA" base_StructuralFeature="_augfAEEmEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_mTJKYEEnEeipQOZ6byMCCA" base_StructuralFeature="_mTIjUkEnEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_mTKYgkEnEeipQOZ6byMCCA" base_StructuralFeature="_mTKYgUEnEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_NqI-40EoEeipQOZ6byMCCA" base_StructuralFeature="_NqI-4kEoEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_NqK0EEEoEeipQOZ6byMCCA" base_StructuralFeature="_NqKNAkEoEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_TCE3ckEpEeipQOZ6byMCCA" base_StructuralFeature="_TCE3cUEpEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_TCGsokEpEeipQOZ6byMCCA" base_StructuralFeature="_TCGsoUEpEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_l09usEEpEeipQOZ6byMCCA" base_StructuralFeature="_l09HokEpEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_l0_j4EEpEeipQOZ6byMCCA" base_StructuralFeature="_l0-80UEpEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_-JFZ4EEpEeipQOZ6byMCCA" base_StructuralFeature="_-JEy0kEpEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_-JpakUEpEeipQOZ6byMCCA" base_StructuralFeature="_-JpakEEpEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_SdtwsUEqEeipQOZ6byMCCA" base_StructuralFeature="_SdtwsEEqEeipQOZ6byMCCA"/>
 </xmi:XMI>

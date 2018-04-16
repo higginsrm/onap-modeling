@@ -1,8 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Package xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jh99MDOHEei5Af8DcjrhIQ" name="Resource">
-  <packagedElement xmi:type="uml:Package" xmi:id="_lK97UDOHEei5Af8DcjrhIQ" name="Associations"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_lK-iYDOHEei5Af8DcjrhIQ" name="Diagrams"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_lK-iYTOHEei5Af8DcjrhIQ" name="Interfaces"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_lK_JcDOHEei5Af8DcjrhIQ" name="ObjectClasses"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_lK_JcTOHEei5Af8DcjrhIQ" name="TypeDefinitions"/>
-</uml:Package>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:OpenModel_Profile="http:///schemas/OpenModel_Profile/_JpOasIJYEee3epvelL_xvA/25" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/OpenModel_Profile/_JpOasIJYEee3epvelL_xvA/25 OpenModel_Profile.profile.uml#_JpVIYIJYEee3epvelL_xvA">
+  <uml:Package xmi:id="_jh99MDOHEei5Af8DcjrhIQ" name="Resource">
+    <packagedElement xmi:type="uml:Package" xmi:id="_lK97UDOHEei5Af8DcjrhIQ" name="Associations"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_lK-iYDOHEei5Af8DcjrhIQ" name="Diagrams"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_lK-iYTOHEei5Af8DcjrhIQ" name="Interfaces"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_lK_JcDOHEei5Af8DcjrhIQ" name="ObjectClasses">
+      <packagedElement xmi:type="uml:Class" xmi:id="_kiPmwEEiEeipQOZ6byMCCA" name="Nfp">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_p1xV4EEiEeipQOZ6byMCCA" annotatedElement="_kiPmwEEiEeipQOZ6byMCCA">
+          <body>An ordered list of connection points forming a chain of NFs, along with policies associated to the list.</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_q7RlYEEiEeipQOZ6byMCCA" name="nfpId" visibility="public">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_zqQHsEEiEeipQOZ6byMCCA" annotatedElement="_q7RlYEEiEeipQOZ6byMCCA">
+            <body>Identification of the NFP.</body>
+          </ownedComment>
+          <type xmi:type="uml:DataType" href="Common.uml#_AuYtcDkBEeiWMf5FLWfdLA"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_28eGYEEiEeipQOZ6byMCCA" name="totalCp" visibility="public">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_oWgbMEElEeipQOZ6byMCCA" annotatedElement="_28eGYEEiEeipQOZ6byMCCA">
+            <body>Total number of Connection Points in this NFP queried for</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_sISDsEElEeipQOZ6byMCCA" name="nfpRule" visibility="public">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_073ZMEElEeipQOZ6byMCCA">
+            <body>NFP classification and selection rule(s)</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="Common.uml#_8rNJgD2uEeiu6I5JfRTxxQ"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yTS0cEElEeipQOZ6byMCCA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yUFeoEElEeipQOZ6byMCCA" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_auG2YkEmEeipQOZ6byMCCA" name="_cp" aggregation="shared">
+          <type xmi:type="uml:Class" href="Common.uml#_7XLQwEEaEeipQOZ6byMCCA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_auLu4EEmEeipQOZ6byMCCA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_auWG8EEmEeipQOZ6byMCCA" value="*"/>
+          <association xmi:type="uml:Association" href="Service.uml#_auFoQEEmEeipQOZ6byMCCA"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Sdr7gEEqEeipQOZ6byMCCA" name="_nfpd">
+          <type xmi:type="uml:Class" href="Service.uml#_13eBMDzEEeiWMf5FLWfdLA"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SdtJoEEqEeipQOZ6byMCCA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SdtJoUEqEeipQOZ6byMCCA" value="1"/>
+          <association xmi:type="uml:Association" href="Service.uml#_SdpfQEEqEeipQOZ6byMCCA"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_BCEgkEEnEeipQOZ6byMCCA" name="NetworkFunction" isAbstract="true">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_BCEgkUEnEeipQOZ6byMCCA" annotatedElement="_BCEgkEEnEeipQOZ6byMCCA">
+          <body>A functional block within a network infrastructure that has well-defined external interfaces and well-defined functional behaviour. NOTE: practical terms, a Network Function is today often a network node or physical appliance.</body>
+        </ownedComment>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_lK_JcTOHEei5Af8DcjrhIQ" name="TypeDefinitions"/>
+  </uml:Package>
+  <OpenModel_Profile:OpenModelClass xmi:id="_kiQN0EEiEeipQOZ6byMCCA" base_Class="_kiPmwEEiEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_q7RlYUEiEeipQOZ6byMCCA" base_StructuralFeature="_q7RlYEEiEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_28eGYUEiEeipQOZ6byMCCA" base_StructuralFeature="_28eGYEEiEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_sIVHAEElEeipQOZ6byMCCA" base_StructuralFeature="_sISDsEElEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_auG2Y0EmEeipQOZ6byMCCA" base_StructuralFeature="_auG2YkEmEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_BCFHoEEnEeipQOZ6byMCCA" base_Class="_BCEgkEEnEeipQOZ6byMCCA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Sdr7gUEqEeipQOZ6byMCCA" base_StructuralFeature="_Sdr7gEEqEeipQOZ6byMCCA"/>
+</xmi:XMI>
