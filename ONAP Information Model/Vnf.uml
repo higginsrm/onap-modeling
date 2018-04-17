@@ -326,6 +326,7 @@ NOTE 2: virtualLinkProfile needs to be provided for all VLs that the CPs of the 
       <ownedComment xmi:type="uml:Comment" xmi:id="_fAb24Dz3Eeiuk5pWzMOpfA" annotatedElement="_DlOpkDnDEeiWMf5FLWfdLA">
         <body>Not Defined in Clean</body>
       </ownedComment>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WAF3UEJTEeiDS9blpN8EJw" name="Kevin"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_zPN5MTOHEei5Af8DcjrhIQ" name="Interfaces"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_zPN5MjOHEei5Af8DcjrhIQ" name="ObjectClasses">
@@ -2132,4 +2133,8 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <OpenModel_Profile:OpenModelAttribute xmi:id="_o4b5oT5eEeijbdkIlrq2uQ" base_StructuralFeature="_o4b5oD5eEeijbdkIlrq2uQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_8qHZwD5xEeijbdkIlrq2uQ" base_StructuralFeature="_8qGysD5xEeijbdkIlrq2uQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_8qIn4j5xEeijbdkIlrq2uQ" base_StructuralFeature="_8qIn4T5xEeijbdkIlrq2uQ"/>
+  <OpenModel_Profile:Experimental xmi:id="_SwBNsEJTEeiDS9blpN8EJw" base_Element="_CaBRQD0REeiuk5pWzMOpfA"/>
+  <OpenModel_Profile:Experimental xmi:id="_T_i74EJTEeiDS9blpN8EJw" base_Element="_FLWJYD0REeiuk5pWzMOpfA"/>
+  <OpenModel_Profile:Experimental xmi:id="_VYV60EJTEeiDS9blpN8EJw" base_Element="_IYL40D0REeiuk5pWzMOpfA"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_WAGeYEJTEeiDS9blpN8EJw" base_Class="_WAF3UEJTEeiDS9blpN8EJw"/>
 </xmi:XMI>
