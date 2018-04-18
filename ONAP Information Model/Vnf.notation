@@ -4002,6 +4002,9 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CaDGgz0REeiuk5pWzMOpfA"/>
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_kyi1oD2KEeiFiY3bcpqGkg" visible="false" type="StereotypeLabel">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5Ov-YEMMEei8tN1yOBuI1w" source="PapyrusCSSForceValue">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5Ov-YUMMEei8tN1yOBuI1w" key="visible" value="true"/>
+        </eAnnotations>
         <styles xmi:type="notation:StringValueStyle" xmi:id="_kyi1oT2KEeiFiY3bcpqGkg" name="stereotype" stringValue="OpenModel_Profile::OpenModelClass"/>
         <element xmi:type="uml:Stereotype" href="OpenModel_Profile.profile.uml#_JVMFMHBhEd6FKu9XX1078A"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kyi1oj2KEeiFiY3bcpqGkg"/>
