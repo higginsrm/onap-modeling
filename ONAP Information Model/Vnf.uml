@@ -326,7 +326,88 @@ NOTE 2: virtualLinkProfile needs to be provided for all VLs that the CPs of the 
       <ownedComment xmi:type="uml:Comment" xmi:id="_fAb24Dz3Eeiuk5pWzMOpfA" annotatedElement="_DlOpkDnDEeiWMf5FLWfdLA">
         <body>Not Defined in Clean</body>
       </ownedComment>
-      <packagedElement xmi:type="uml:Class" xmi:id="_WAF3UEJTEeiDS9blpN8EJw" name="Kevin"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_JuzvQEJ8EeiwbqJBYHKltg" annotatedElement="_CaBRQD0REeiuk5pWzMOpfA">
+        <body>How do we model a list?</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_TDLdoEJ8EeiwbqJBYHKltg" annotatedElement="_FLWJYD0REeiuk5pWzMOpfA">
+        <body>Need strategyScope - query Mark M.</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_FYOMsEKAEeiwbqJBYHKltg">
+        <annotatedElement xmi:type="uml:Class" href="Service.uml#_7SrB0D0VEeiWMf5FLWfdLA"/>
+        <annotatedElement xmi:type="uml:Class" href="#_aaEZADOREeiHat9KcP8uWA"/>
+        <body>ResourceDesc???</body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Association" xmi:id="_KOPAwEJ9EeiwbqJBYHKltg" memberEnd="_KOSEEEJ9EeiwbqJBYHKltg _KOYxwEJ9EeiwbqJBYHKltg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KOQ18EJ9EeiwbqJBYHKltg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KORdAEJ9EeiwbqJBYHKltg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_KOSEEEJ9EeiwbqJBYHKltg" name="scalinggroup" type="_M45q8D0REeiuk5pWzMOpfA" association="_KOPAwEJ9EeiwbqJBYHKltg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_KOYxwEJ9EeiwbqJBYHKltg" name="vnfvirtuallinkdesc " type="_AC2eIDQUEeixv_sLOod4lQ" association="_KOPAwEJ9EeiwbqJBYHKltg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_oVoSIEJ9EeiwbqJBYHKltg" name="ServiceFlavorUsersHomingGroup" memberEnd="_oVpgQEJ9EeiwbqJBYHKltg _oVqHUEJ9EeiwbqJBYHKltg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oVo5MEJ9EeiwbqJBYHKltg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oVo5MUJ9EeiwbqJBYHKltg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_oVpgQEJ9EeiwbqJBYHKltg" name="nsdf" association="_oVoSIEJ9EeiwbqJBYHKltg">
+          <type xmi:type="uml:Class" href="Service.uml#_13gdcDzEEeiWMf5FLWfdLA"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_oVqHUEJ9EeiwbqJBYHKltg" name="hominggroup" type="_CaBRQD0REeiuk5pWzMOpfA" association="_oVoSIEJ9EeiwbqJBYHKltg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xVtLgEJ9EeiwbqJBYHKltg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xVyEAEJ9EeiwbqJBYHKltg" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_m-GzoEJ_EeiwbqJBYHKltg" memberEnd="_m-HasUJ_EeiwbqJBYHKltg _m-RLsEJ_EeiwbqJBYHKltg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m-GzoUJ_EeiwbqJBYHKltg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m-HasEJ_EeiwbqJBYHKltg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_m-HasUJ_EeiwbqJBYHKltg" name="hominggroup" type="_CaBRQD0REeiuk5pWzMOpfA" association="_m-GzoEJ_EeiwbqJBYHKltg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tFHOIEJ_EeiwbqJBYHKltg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tFPJ8EJ_EeiwbqJBYHKltg" value="*"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_m-RLsEJ_EeiwbqJBYHKltg" name="vnfd" type="_aaEZADOREeiHat9KcP8uWA" association="_m-GzoEJ_EeiwbqJBYHKltg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ue8H0EJ_EeiwbqJBYHKltg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ufCOcEJ_EeiwbqJBYHKltg" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_51KZMEJ_EeiwbqJBYHKltg" memberEnd="_51LAQkJ_EeiwbqJBYHKltg _51TjIEJ_EeiwbqJBYHKltg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_51LAQEJ_EeiwbqJBYHKltg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_51LAQUJ_EeiwbqJBYHKltg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_51LAQkJ_EeiwbqJBYHKltg" name="servicecomponentdescriptor" association="_51KZMEJ_EeiwbqJBYHKltg">
+          <type xmi:type="uml:Class" href="Service.uml#_7SrB0D0VEeiWMf5FLWfdLA"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_51TjIEJ_EeiwbqJBYHKltg" name="nsdf" association="_51KZMEJ_EeiwbqJBYHKltg">
+          <type xmi:type="uml:Class" href="Service.uml#_13gdcDzEEeiWMf5FLWfdLA"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Z4hA8EKAEeiwbqJBYHKltg" memberEnd="_Z4iPEUKAEeiwbqJBYHKltg _Z4pj0EKAEeiwbqJBYHKltg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Z4hoAEKAEeiwbqJBYHKltg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Z4iPEEKAEeiwbqJBYHKltg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Z4iPEUKAEeiwbqJBYHKltg" name="placementgroup" type="_FLWJYD0REeiuk5pWzMOpfA" association="_Z4hA8EKAEeiwbqJBYHKltg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Z4pj0EKAEeiwbqJBYHKltg" name="vnfdf " type="_p0UVsDQvEeixv_sLOod4lQ" association="_Z4hA8EKAEeiwbqJBYHKltg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_dlMHAEKAEeiwbqJBYHKltg" memberEnd="_dlMuEkKAEeiwbqJBYHKltg _dlUC0EKAEeiwbqJBYHKltg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dlMuEEKAEeiwbqJBYHKltg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dlMuEUKAEeiwbqJBYHKltg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_dlMuEkKAEeiwbqJBYHKltg" name="baseconfiggroup" type="_IYL40D0REeiuk5pWzMOpfA" association="_dlMHAEKAEeiwbqJBYHKltg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_dlUC0EKAEeiwbqJBYHKltg" name="vnfdf " type="_p0UVsDQvEeixv_sLOod4lQ" association="_dlMHAEKAEeiwbqJBYHKltg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_g0oegEKAEeiwbqJBYHKltg" memberEnd="_g0pFkkKAEeiwbqJBYHKltg _g0vzQEKAEeiwbqJBYHKltg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_g0pFkEKAEeiwbqJBYHKltg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_g0pFkUKAEeiwbqJBYHKltg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_g0pFkkKAEeiwbqJBYHKltg" name="deploymentgroup" type="_KzEm4D0REeiuk5pWzMOpfA" association="_g0oegEKAEeiwbqJBYHKltg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_g0vzQEKAEeiwbqJBYHKltg" name="vnfdf " type="_p0UVsDQvEeixv_sLOod4lQ" association="_g0oegEKAEeiwbqJBYHKltg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h7IMgEKAEeiwbqJBYHKltg" memberEnd="_h7IzkkKAEeiwbqJBYHKltg _h7PhQEKAEeiwbqJBYHKltg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_h7IzkEKAEeiwbqJBYHKltg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_h7IzkUKAEeiwbqJBYHKltg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_h7IzkkKAEeiwbqJBYHKltg" name="scalinggroup" type="_M45q8D0REeiuk5pWzMOpfA" association="_h7IMgEKAEeiwbqJBYHKltg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_h7PhQEKAEeiwbqJBYHKltg" name="vnfdf " type="_p0UVsDQvEeixv_sLOod4lQ" association="_h7IMgEKAEeiwbqJBYHKltg"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_zPN5MTOHEei5Af8DcjrhIQ" name="Interfaces"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_zPN5MjOHEei5Af8DcjrhIQ" name="ObjectClasses">
@@ -1291,6 +1372,7 @@ VF Module is a method to implement a placement group, Missing relationship to VD
 </body>
         </ownedComment>
         <generalization xmi:type="uml:Generalization" xmi:id="_-kSgYD0REeiuk5pWzMOpfA" general="_X3eqgDTQEeiwQ6KPLHcy4g"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_t6Z-wEJ8EeiwbqJBYHKltg" name="vnfcMembers"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_OB_4cDz6Eeiuk5pWzMOpfA" name="VirtualLinkBitRateLevel"/>
     </packagedElement>
@@ -2126,5 +2208,20 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <OpenModel_Profile:Experimental xmi:id="_SwBNsEJTEeiDS9blpN8EJw" base_Element="_CaBRQD0REeiuk5pWzMOpfA"/>
   <OpenModel_Profile:Experimental xmi:id="_T_i74EJTEeiDS9blpN8EJw" base_Element="_FLWJYD0REeiuk5pWzMOpfA"/>
   <OpenModel_Profile:Experimental xmi:id="_VYV60EJTEeiDS9blpN8EJw" base_Element="_IYL40D0REeiuk5pWzMOpfA"/>
-  <OpenModel_Profile:OpenModelClass xmi:id="_WAGeYEJTEeiDS9blpN8EJw" base_Class="_WAF3UEJTEeiDS9blpN8EJw"/>
+  <OpenModel_Profile:Experimental xmi:id="_Aukd0EJ8EeiwbqJBYHKltg" base_Element="_KzEm4D0REeiuk5pWzMOpfA"/>
+  <OpenModel_Profile:Experimental xmi:id="_B1NVwEJ8EeiwbqJBYHKltg" base_Element="_M45q8D0REeiuk5pWzMOpfA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_t6al0EJ8EeiwbqJBYHKltg" base_StructuralFeature="_t6Z-wEJ8EeiwbqJBYHKltg"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_KOSrIEJ9EeiwbqJBYHKltg" base_StructuralFeature="_KOSEEEJ9EeiwbqJBYHKltg"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_KOYxwUJ9EeiwbqJBYHKltg" base_StructuralFeature="_KOYxwEJ9EeiwbqJBYHKltg"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_oVpgQUJ9EeiwbqJBYHKltg" base_StructuralFeature="_oVpgQEJ9EeiwbqJBYHKltg"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_m-HaskJ_EeiwbqJBYHKltg" base_StructuralFeature="_m-HasUJ_EeiwbqJBYHKltg"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_m-RywEJ_EeiwbqJBYHKltg" base_StructuralFeature="_m-RLsEJ_EeiwbqJBYHKltg"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Z4iPEkKAEeiwbqJBYHKltg" base_StructuralFeature="_Z4iPEUKAEeiwbqJBYHKltg"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Z4pj0UKAEeiwbqJBYHKltg" base_StructuralFeature="_Z4pj0EKAEeiwbqJBYHKltg"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_dlMuE0KAEeiwbqJBYHKltg" base_StructuralFeature="_dlMuEkKAEeiwbqJBYHKltg"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_dlUC0UKAEeiwbqJBYHKltg" base_StructuralFeature="_dlUC0EKAEeiwbqJBYHKltg"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_g0pFk0KAEeiwbqJBYHKltg" base_StructuralFeature="_g0pFkkKAEeiwbqJBYHKltg"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_g0vzQUKAEeiwbqJBYHKltg" base_StructuralFeature="_g0vzQEKAEeiwbqJBYHKltg"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_h7Izk0KAEeiwbqJBYHKltg" base_StructuralFeature="_h7IzkkKAEeiwbqJBYHKltg"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_h7PhQUKAEeiwbqJBYHKltg" base_StructuralFeature="_h7PhQEKAEeiwbqJBYHKltg"/>
 </xmi:XMI>
